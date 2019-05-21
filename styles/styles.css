@@ -44,11 +44,14 @@
 }
 
 .bar {
-    position: relative;
+    position: absolute;
+    top: 311px;
     margin: 0 auto;
     padding-left: 12px;
     padding-top: 6px;
-    width: 484px;
+    min-width: 980px;
+    z-index: 103;
+    width: 100%;
     display: block;
     font-size: small;
     color: #222;
@@ -97,11 +100,16 @@
 }
 
 .navbar {
+    position: absolute;
+    top: -295px;
+    right: 0px;
+    width: 100%;
     list-style-type: 0;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #5f6368;
+    display: block;
 }
 
 li {
@@ -128,4 +136,14 @@ li a {
 
 li a:hover {
     background-color: darkslategrey;
+}
+
+body {
+    height: 100%;
+    margin: 0%;
+    display: block;
+}
+
+#viewport {
+    
 }

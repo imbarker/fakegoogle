@@ -110,10 +110,6 @@
     display: block;
 }
 
-li {
-    display: inline;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -123,11 +119,11 @@ ul {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     width: 30px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding-left: 15px;
     text-decoration: none;
 }
 
